@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
   <head>
-      <title>THEBAS</title>
+      <title>Site-Andreata</title>
       <link rel="stylesheet" typt="text/css" href="">
      <meta charset="utf-8">
     <script scr="jquery.js"></script>
@@ -9,14 +9,12 @@
             .site{
                 width:940px;
                 height:600px;
-                border:2px solid rgb(18,121,9,1);
                 padding:0px;
             } 
 
             .header{
-                width:938px;
+                width:inherit;
                 height:50px;
-                border:2px solid rgb(18,121,9,1);
                 padding:0px;
                 background: rgb(1,37,8);
                 background: -moz-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
@@ -26,18 +24,17 @@
             }
 
             .main{
-                width:938px;
+                width:inherit;
                 height:500px;
-                border:2px solid rgb(3, 5, 98);
                 padding:0px;
-                background-image:url("https://th.bing.com/th/id/OIP.ONZXZ91RS56i6S74kz-hVgHaEo?rs=1&pid=ImgDetMain");
+                background-image:url;
+                ;
 
             }
 
             .footer{
-                width:938px;
-                height:40px;
-                border:2px solid rgb(3, 5, 98);
+                width:inherit;
+                height:40px;              
                 padding:0px;
                 background: -moz-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
                 background: -webkit-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
@@ -48,8 +45,7 @@
             .esquerda{
                 width:60px;
                 height:500px;
-                border:2px solid rgb(18,121,9,1)
-                display :inline-block;
+                display:inline-block;
                 float:right ;
                 background: -moz-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
                 background: -webkit-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
@@ -60,17 +56,16 @@
              .centro{  
                 width:800px;
                 height:500px;
-                border:2px solid rgb(18,121,9,1);
                 display:inline-block;
                 float:right;
-                background-image: url("https://th.bing.com/th/id/R.6d9ec7cf9a316be9e976d0a1323efcdf?rik=HIXQjb%2fyGHXCpg&pid=ImgRaw&r=0");
+                background-image: url("https://i.makeagif.com/media/9-17-2016/Mh7caS.gif");
+                background-repeat:;
 
                 
             }
               .direita{
-                width:66px;
+                width:60px;
                 height:500px;
-                border:2px solid rgb(18,121,9,1);
                 display:inline-block;
                 float:right; 
                 background: -moz-linear-gradient(90deg, rgba(1,37,8,1) 0%, rgba(18,121,9,1) 49%, rgba(0,255,40,1) 100%);
@@ -81,11 +76,10 @@
 
         </style>
     <script>
-        let nome="Richard";
-          alert("nome");
-          
-        });
+       $(document).ready(function(){
+            alert("GOL DO CORINTHIANS");
 
+       });
 
 
 
@@ -115,7 +109,7 @@
                         <legend>calculadora</legend>
                         <br>
                             <td><button class="botao" onclick="clearResult()">C</button></td>
-                            <td><button class="botao" onclick="backspace()"><</i></button></td>
+                            <td><button class="botao" onclick="backspace()">%</i></button></td>
                             <td><button class="botao" onclick="insert('/')">/</button></td>
                             <td><button class="botao" onclick="insert('*')">X</button></td>
                         </br>
