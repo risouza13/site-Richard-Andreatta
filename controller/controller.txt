@@ -1,1 +1,42 @@
+//string
+let idade = "dezoito";
+let complemento = " anos de idade";
+console.log(idade + complemento);
+// inteiro
+let altura = 176;
+altura /= 10;
+
+console.log(altura);
+//booleano
+let numero1 = 11;
+let numero2 = 9;
+let numero3 = 10;
+
+console.log(numero1===numero2);
+//condicionais
+
+if(numero1==10){
+    console.log("o numero1 vale 10");
+}else{
+    console.log("o numero1 é diferente de 10")
+}
+//1-sabe-se que as pessoas abaixo 16banos nao podem votar, as pessoas com idade entre 16 e 18 possuem voto facultativo, as pessoas com idade entre 18 e 70 anos possuem voto obrigatorio e as pessoas com idade acima de anos tambem possuem voto facultativo.faca um codigo que diga atravaes da idade a condicao de voto dela.
+
+
+// codigo e "&&"
+// codigo e "||"
+
+let idadex = 16;
+
+if(idadex < 16){
+     console.log("eleitor não pode votar");
+}else if (idadex >=16 && idadex < 18 || idadex>70{
+    console.log("eleitor possui voto facultativo");
+}
+
+
+
+//questão2 --> ganhar na mega sena é o sonho de todo brasileiro. diariamente milhares de pessoas apostam 
+
+
 
