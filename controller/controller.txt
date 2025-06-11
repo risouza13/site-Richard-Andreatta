@@ -30,13 +30,69 @@ let idadex = 16;
 
 if(idadex < 16){
      console.log("eleitor não pode votar");
-}else if (idadex >=16 && idadex < 18 || idadex>70{
+}else if (idadex >=16 && idadex < 18 || idadex>70){
     console.log("eleitor possui voto facultativo");
 }
 
+// questão 2 ganhar na mega é o sonho de todo brasileiro, diariamente milhares de pessoas apostam sonhando com a chance de mudar 
 
 
-//questão2 --> ganhar na mega sena é o sonho de todo brasileiro. diariamente milhares de pessoas apostam 
 
 
 
+
+// variaveis num sorteados
+let numsort1 = 99;
+let numsort2 = 76;
+let numsort3 = 76;
+let numsort4 = 12;
+let numsort5 = 03;
+let numsort6 = 54;
+// variaveis num apostados
+let numapost1 = 54
+let numapost2 = 03
+let numapost3 = 12
+let numapost4 = 99
+let numapost5 = 76
+let numapost6 = 76
+// variavel dezena
+let dezena1;
+let dezena2;
+let dezena3;
+let dezena4;
+let dezena5;
+let dezena6;
+
+
+if(let numapost1 == let numsort1 || let numapost1 == let numsort2 || let numapost1 == let numsort3 || let numapost1 == let numsort4 || let numapost1 == let numsort5 ||  let numapost1 == let numsort6 
+){
+    dezena1 = 0;
+    console.log(dezena1);
+
+}if(
+    let numapost2 == let numsort1 || let numapost2 == let numsort2 || let numapost2 == let numsort3 || let numapost2 == let numsort4 || let numapost2 == let numsort5 ||  let numapost2 == let numsort6 ){
+        dezena2 = 0;
+        console.log(dezena2);
+    }if(
+     let numapost3 == let numsort1 || let numapost3 == let numsort2 || let numapost3 == let numsort3 || let numapost3 == let numsort4 || let numapost3 == let numsort5 ||  let numapost3 == let numsort6 ){
+     
+     
+         dezena3 = 0;
+        console.log(dezena3);
+
+    }if(let numapost4 == let numsort1 || let numapost4 == let numsort2 || let numapost4 == let numsort3 || let numapost4 == let numsort4 || let numapost4 == let numsort5 ||  let numapost4 == let numsort6 
+        ){
+             dezena4 = 0;
+        console.log(dezena4);
+        }if
+        (let numapost5 == let numsort1 || let numapost5 == let numsort2 || let numapost5 == let numsort3 || let numapost5 == let numsort4 || let numapost5 == let numsort5 ||  let numapost5 == let numsort6 
+        ){
+             dezena5 = 0;
+        console.log(dezena5);
+        }else if(let numapost6 == let numsort1 || let numapost6 == let numsort2 || let numapost6 == let numsort3 || let numapost6 == let numsort4 || let numapost6 == let numsort5 ||  let numapost6 == let numsort6 
+        ){
+             dezena6 = 0;
+        console.log(dezena6);
+        }
+
+ 
