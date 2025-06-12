@@ -1,61 +1,90 @@
-//string
-let idade = "dezoito";
-let complemento = " anos de idade";
-console.log(idade + complemento);
-// inteiro
-let altura = 176;
+// comando "//" cria comentarios.
+// comentarios servem para deixar os codigos
+// organizados
+
+// javascript é case sensitive (diferencia
+// letras maiusculas de letras minusculas)
+
+// variaveis servem para armazenar informacoes.
+// elas são organizadas em string, int, boolean,
+//etc.
+// comando que cria variaveis é o "let", porém é
+// possivel tambem usar o "const".
+// para mostrar alguma coisa na tela, é usado o
+// codigo "console.log();"
+
+// variaveis do tipo string
+let idade = "trinta anos";
+let complemento = " de idade";
+console.log(idade+complemento);
+
+// variaveis do tipo inteiro
+let altura = 185;
 altura /= 10;
 
 console.log(altura);
-//booleano
+
+// variaveis do tipo booleano
 let numero1 = 11;
 let numero2 = 9;
 let numero3 = 10;
 
 console.log(numero1===numero2);
-//condicionais
 
-if(numero1==10){
-    console.log("o numero1 vale 10");
+// trabalhando com condicionais
+if(numero1 == 9){
+console.log("o numero1 e diferente de 9");
 }else{
-    console.log("o numero1 é diferente de 10")
+console.log("o numero1 é diferente de 10");
 }
-//1-sabe-se que as pessoas abaixo 16banos nao podem votar, as pessoas com idade entre 16 e 18 possuem voto facultativo, as pessoas com idade entre 18 e 70 anos possuem voto obrigatorio e as pessoas com idade acima de anos tambem possuem voto facultativo.faca um codigo que diga atravaes da idade a condicao de voto dela.
 
+// Questao1 -> Sabe-se que as pessoas abaixo de
+// 16 anos nao podem votar, as pessoas com idade
+// entre 16 e 18 possuem voto facultativo, as
+//pessoas com idade entre 18 e 70 anos possuem
+// voto obrigatorio e as pessoas com idade acima
+// de 70 anos tambem possuem voto facultativo.
+// faca um codigo que diga atraves da idade, a
+// condicao de voto dela.
 
-// codigo e "&&"
-// codigo e "||"
+// codigo e = "&&"
+// codigo ou = "||"
 
 let idadex = 16;
 
 if(idadex < 16){
-     console.log("eleitor não pode votar");
-}else if (idadex >=16 && idadex < 18 || idadex>70){
-    console.log("eleitor possui voto facultativo");
+console.log("Eleitor não pode votar");
+}else if(idadex >= 18 && idadex <= 70){
+console.log("Eleitor é obrigado a votar");
+}else if((idadex >= 16 && idadex < 18) || idadex > 70){
+console.log("Eleitor possui voto facultativo");
 }
 
-// questão 2 ganhar na mega é o sonho de todo brasileiro, diariamente milhares de pessoas apostam sonhando com a chance de mudar 
+// Questao2 -> Ganhar na mega sena é o sonho de
+// todo brasileiro. Diariamente milhares de
+// pessoas apostam sonhando com a chance de
+// mudar de vida. Faça um codigo que verique os
+// numeros apostados e os numeros sorteados e
+// diga se o apostador ganhou na quadra, quina
+// ou sena.
 
+//declarando as variaveis dos numeros sorteados
+let numerosorteado1 = 47;
+let numerosorteado2 = 56;
+let numerosorteado3 = 17;
+let numerosorteado4 = 38;
+let numerosorteado5 = 32;
+let numerosorteado6 = 21;
 
+//declarando as variaveis dos numeros apostados
+let numeroapostado1 = 17;
+let numeroapostado2 = 32;
+let numeroapostado3 = 56;
+let numeroapostado4 = 21;
+let numeroapostado5 = 38;
+let numeroapostado6 = 47;
 
-
-
-
-// variaveis num sorteados
-let numsort1 = 99;
-let numsort2 = 76;
-let numsort3 = 76;
-let numsort4 = 12;
-let numsort5 = 03;
-let numsort6 = 54;
-// variaveis num apostados
-let numapost1 = 54
-let numapost2 = 03
-let numapost3 = 12
-let numapost4 = 99
-let numapost5 = 76
-let numapost6 = 76
-// variavel dezena
+//verificacao da dezena sorteada
 let dezena1;
 let dezena2;
 let dezena3;
@@ -63,36 +92,136 @@ let dezena4;
 let dezena5;
 let dezena6;
 
-
-if(let numapost1 == let numsort1 || let numapost1 == let numsort2 || let numapost1 == let numsort3 || let numapost1 == let numsort4 || let numapost1 == let numsort5 ||  let numapost1 == let numsort6 
+//verificando o numeroapostado1
+if(numeroapostado1 == numerosorteado1 ||
+numeroapostado1 == numerosorteado2 ||
+numeroapostado1 == numerosorteado3 ||
+numeroapostado1 == numerosorteado4 ||
+numeroapostado1 == numerosorteado5 ||
+numeroapostado1 == numerosorteado6
 ){
-    dezena1 = 0;
-    console.log(dezena1);
+dezena1 = 0;
+console.log(dezena1);
 
-}if(
-    let numapost2 == let numsort1 || let numapost2 == let numsort2 || let numapost2 == let numsort3 || let numapost2 == let numsort4 || let numapost2 == let numsort5 ||  let numapost2 == let numsort6 ){
-        dezena2 = 0;
-        console.log(dezena2);
-    }if(
-     let numapost3 == let numsort1 || let numapost3 == let numsort2 || let numapost3 == let numsort3 || let numapost3 == let numsort4 || let numapost3 == let numsort5 ||  let numapost3 == let numsort6 ){
-     
-     
-         dezena3 = 0;
-        console.log(dezena3);
+}
 
-    }if(let numapost4 == let numsort1 || let numapost4 == let numsort2 || let numapost4 == let numsort3 || let numapost4 == let numsort4 || let numapost4 == let numsort5 ||  let numapost4 == let numsort6 
-        ){
-             dezena4 = 0;
-        console.log(dezena4);
-        }if
-        (let numapost5 == let numsort1 || let numapost5 == let numsort2 || let numapost5 == let numsort3 || let numapost5 == let numsort4 || let numapost5 == let numsort5 ||  let numapost5 == let numsort6 
-        ){
-             dezena5 = 0;
-        console.log(dezena5);
-        }else if(let numapost6 == let numsort1 || let numapost6 == let numsort2 || let numapost6 == let numsort3 || let numapost6 == let numsort4 || let numapost6 == let numsort5 ||  let numapost6 == let numsort6 
-        ){
-             dezena6 = 0;
-        console.log(dezena6);
-        }
+//verificando o numeroapostado2
+if(numeroapostado2 == numerosorteado1 ||
+numeroapostado2 == numerosorteado2 ||
+numeroapostado2 == numerosorteado3 ||
+numeroapostado2 == numerosorteado4 ||
+numeroapostado2 == numerosorteado5 ||
+numeroapostado2 == numerosorteado6){
 
- 
+dezena2 = 0;
+console.log(dezena2);
+
+}
+
+//verificando o numeroapostado3
+if(numeroapostado3 == numerosorteado1 ||
+numeroapostado3 == numerosorteado2 ||
+numeroapostado3 == numerosorteado3 ||
+numeroapostado3 == numerosorteado4 ||
+numeroapostado3 == numerosorteado5 ||
+numeroapostado3 == numerosorteado6){
+
+dezena3 = 0;
+console.log(dezena3);
+
+}
+
+//verificando o numeroapostado4
+if(numeroapostado4 == numerosorteado1 ||
+numeroapostado4 == numerosorteado2 ||
+numeroapostado4 == numerosorteado3 ||
+numeroapostado4 == numerosorteado4 ||
+numeroapostado4 == numerosorteado5 ||
+numeroapostado4 == numerosorteado6){
+
+dezena4 = 0;
+console.log(dezena4);
+
+}
+
+//verificando o numeroapostado5
+if(numeroapostado5 == numerosorteado1 ||
+numeroapostado5 == numerosorteado2 ||
+numeroapostado5 == numerosorteado3 ||
+numeroapostado5 == numerosorteado4 ||
+numeroapostado5 == numerosorteado5 ||
+numeroapostado5 == numerosorteado6){
+
+dezena5 = 0;
+console.log(dezena5);
+
+}
+
+//verificando o numeroapostado6
+if(numeroapostado6 == numerosorteado1 ||
+numeroapostado6 == numerosorteado2 ||
+numeroapostado6 == numerosorteado3 ||
+numeroapostado6 == numerosorteado4 ||
+numeroapostado6 == numerosorteado5 ||
+numeroapostado6 == numerosorteado6){
+
+dezena6 = 0;
+console.log(dezena6);
+
+}
+
+
+// verificando se ganhei
+
+if(dezena1 == 0 && dezena2 == 0 && dezena3 == 0 && dezena4 == 0 && dezena5 == 0 && dezena6 == 0){
+console.log("GANHEI NA MEGA-SENA");
+}else if(
+
+dezena1 != 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 != 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 != 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 != 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 != 0 &&
+dezena5 != 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA QUINA DA MEGA-SENA");
+}
+
