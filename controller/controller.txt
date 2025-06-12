@@ -225,3 +225,138 @@ dezena5 == 0 && dezena6 != 0
 console.log("GANHEI NA QUINA DA MEGA-SENA");
 }
 
+
+else if(
+
+dezena1 != 0 && dezena2 != 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}
+
+else if(
+
+dezena1 != 0 && dezena2 == 0 &&
+dezena3 != 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+else if(
+
+dezena1 != 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 != 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 != 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 != 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 != 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 != 0 && dezena2 != 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 != 0 &&
+dezena3 != 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 != 0 &&
+dezena3 == 0 && dezena4 != 0 &&
+dezena5 == 0 && dezena6 == 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 == 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else if(
+
+dezena1 == 0 && dezena2 == 0 &&
+dezena3 == 0 && dezena4 == 0 &&
+dezena5 != 0 && dezena6 != 0
+
+){
+console.log("GANHEI NA quadra DA MEGA-SENA");
+}else{
+    console.log("quero meu dinheiro de volta")
+}
+
